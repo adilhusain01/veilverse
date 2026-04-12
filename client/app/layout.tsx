@@ -19,6 +19,30 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "VeilVerse | Redefining Modesty",
   description: "Experience elegance in motion with our premium collection.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "VeilVerse | Redefining Modesty",
+    description: "Experience elegance in motion with our premium collection.",
+    siteName: "VeilVerse",
+    images: [
+      {
+        url: "/og.webp",
+        width: 1200,
+        height: 630,
+        alt: "VeilVerse OG Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VeilVerse | Redefining Modesty",
+    description: "Experience elegance in motion with our premium collection.",
+    images: ["/og.webp"],
+  },
 };
 
 export default function RootLayout({
