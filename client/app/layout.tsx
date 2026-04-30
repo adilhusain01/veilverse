@@ -17,6 +17,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://veilverse.adilhusain.xyz"),
   title: "VeilVerse | Redefining Modesty",
   description: "Experience elegance in motion with our premium collection.",
   icons: {
@@ -27,6 +28,12 @@ export const metadata: Metadata = {
     description: "Experience elegance in motion with our premium collection.",
     siteName: "VeilVerse",
     images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "VeilVerse OG Image",
+      },
       {
         url: "/og.webp",
         width: 1200,
@@ -41,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VeilVerse | Redefining Modesty",
     description: "Experience elegance in motion with our premium collection.",
-    images: ["/og.webp"],
+    images: ["/og.png"],
   },
 };
 
